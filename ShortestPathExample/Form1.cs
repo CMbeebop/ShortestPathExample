@@ -21,7 +21,7 @@ namespace ShortestPathExample
         {
             // Add my map of the states
             PictureBox p = new PictureBox();
-            p.Image = new Bitmap("USWhiteMap");
+            //p.Image = new Bitmap("USWhiteMap");
             p.Location = new Point(0,0);
             this.Controls.Add(p);
 
